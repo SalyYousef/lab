@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjss.js"></script>
+</head>
+<body>
+    <img src="logo.jfif"alt="Yu" widht="100"/>
+    <h1 style="text-align: center;">Student information</h1>
+   
+    <button onclick="displayAll(students)">All student</button>
+    <button onclick="fillterStudent('SE')">SE student</button>
+    <button onclick="fillterStudent('NES')">NE student</button>
+    
+   <table id="studentTable"> 
+    <tr>
+        <thead>
+        <th>Student ID</th>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Major</th>
+    </tr>
+    </thead>
+    <tbody id="studentBody"></tbody>
+    </table>
+    <script>displayAll(Student);</script>
+    
+
+</body>
+</html>
